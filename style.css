@@ -226,6 +226,7 @@ body {
   transition: var(--transition-smooth);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-decoration: none;
+  pointer-events: auto; /* Restores clickability, bypassing parent's pointer-events: none */
 }
 
 /* HOVER / INTERACTIVE ACCORDION LOGIC */
