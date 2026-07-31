@@ -225,6 +225,7 @@ body {
   transform: translateY(20px);
   transition: var(--transition-smooth);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 
 /* HOVER / INTERACTIVE ACCORDION LOGIC */
